@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		85B0446D2D37DAB200B96F69 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B0446C2D37DAB200B96F69 /* main.cpp */; };
+		85B044752D37DB9500B96F69 /* List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B044732D37DB9500B96F69 /* List.cpp */; };
+		85B044782D37DBC200B96F69 /* ListData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B044762D37DBC200B96F69 /* ListData.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		85B044692D37DAB200B96F69 /* List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = List; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B0446C2D37DAB200B96F69 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		85B044732D37DB9500B96F69 /* List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = List.cpp; sourceTree = "<group>"; };
+		85B044742D37DB9500B96F69 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
+		85B044762D37DBC200B96F69 /* ListData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ListData.cpp; sourceTree = "<group>"; };
+		85B044772D37DBC200B96F69 /* ListData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ListData.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				85B0446C2D37DAB200B96F69 /* main.cpp */,
+				85B044742D37DB9500B96F69 /* List.hpp */,
+				85B044732D37DB9500B96F69 /* List.cpp */,
+				85B044772D37DBC200B96F69 /* ListData.hpp */,
+				85B044762D37DBC200B96F69 /* ListData.cpp */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85B044782D37DBC200B96F69 /* ListData.cpp in Sources */,
 				85B0446D2D37DAB200B96F69 /* main.cpp in Sources */,
+				85B044752D37DB9500B96F69 /* List.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
